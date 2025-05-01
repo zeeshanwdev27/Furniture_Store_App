@@ -2,16 +2,16 @@ import React from 'react'
 
 function BottomBanner() {
   return (
-    <div className='flex justify-between items-center py-3 px-30'>
+    <div className='flex justify-between items-center py-3 px-35'>
 
         <div className='flex justify-center items-center text-xs'>
           <ul className='flex items-center gap-6'>
-            <li className='text-black font-bold hover:cursor-pointer hover:text-gray-800'>HOME</li>
-            <li className='text-black font-bold hover:cursor-pointer hover:text-gray-800'>SHOP</li>
-            <li className='text-black font-bold hover:cursor-pointer hover:text-gray-800'>BLOG</li>
-            <li className='text-black font-bold hover:cursor-pointer hover:text-gray-800'>PAGES</li>
-            <li className='text-black font-bold hover:cursor-pointer hover:text-gray-800'>CATEGORY</li>
-            <li className='text-black font-bold hover:cursor-pointer hover:text-gray-800'>CONTACT</li>
+            <li className='text-black font-bold hover:cursor-pointer hover:text-[#885B3A]'>HOME</li>
+            <li className='text-black font-bold hover:cursor-pointer hover:text-[#885B3A]'>SHOP</li>
+            <li className='text-black font-bold hover:cursor-pointer hover:text-[#885B3A]'>BLOG</li>
+            <li className='text-black font-bold hover:cursor-pointer hover:text-[#885B3A]'>PAGES</li>
+            <li className='text-black font-bold hover:cursor-pointer hover:text-[#885B3A]'>CATEGORY</li>
+            <li className='text-black font-bold hover:cursor-pointer hover:text-[#885B3A]'>CONTACT</li>
           </ul>
         </div>
 

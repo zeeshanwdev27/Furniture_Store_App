@@ -22,9 +22,9 @@ function MainNavbar() {
       <Topbar />
       <Navbar />
 
-      <nav className="py-6 px-30 w-full flex justify-between items-center bg-white border border-gray-200">
+      <nav className="py-6 px-35 w-full flex justify-between items-center bg-white border border-gray-200">
         {/* Left side - Brand and Categories */}
-        <div className="flex items-center gap-9">
+        <div className="flex items-center gap-22">
           <div className="brand-name flex items-center gap-2">
             <img
               className="w-10 h-10 object-contain"
@@ -65,7 +65,7 @@ function MainNavbar() {
         </div>
 
         {/* Center - Search bar */}
-        <div className="ml-2 search-bar flex-1 max-w-2xl relative flex items-center">
+        <div className="ml-3 search-bar flex-1 max-w-2xl relative flex items-center">
           <input
             type="text"
             className="bg-white w-5/6 pl-4 pr-10 py-2 border border-[#999999] rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-gray-300 focus:bg-white"

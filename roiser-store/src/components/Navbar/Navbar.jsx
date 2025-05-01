@@ -2,7 +2,7 @@ import React from 'react'
 
 function Navbar() {
   return (
-    <nav className='flex justify-between items-center py-3 px-30'>
+    <nav className='flex justify-between items-center py-3 px-35'>
 
         <div className='flex justify-center items-center text-sm'>
           <ul className='flex items-center gap-4'>
