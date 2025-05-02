@@ -44,7 +44,7 @@ function ServiceSection() {
               desc: "Enjoy exclusive deals and seasonal discounts across our entire furniture collection.",
             },
           ].map(({ icon, title, desc }) => (
-            <div key={icon} className="flex items-start gap-4">
+            <div key={icon} className="flex items-center gap-4">
               <div className="bg-white p-2 px-3 rounded-full">
                 <span className="material-symbols-outlined text-[#885B3A] text-4xl">
                   {icon}

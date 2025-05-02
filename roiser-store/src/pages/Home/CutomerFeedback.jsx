@@ -67,7 +67,7 @@ const testimonials = [
 
 function CutomerFeedback() {
   return (
-    <div className="bg-[#885B3A] py-15 px-30 text-center text-white">
+    <div className="bg-[#885B3A] py-15 px-40 text-center text-white">
       <h2 className="text-2xl font-bold mb-10">HAPPY CUSTOMERS</h2>
       <Swiper
         modules={[Navigation, Pagination]}
